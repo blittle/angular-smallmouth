@@ -1,0 +1,28 @@
+{
+  "name": "angular-smallmouth",
+  "main": "angular-smallmouth.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/blittle/angular-smallmouth",
+  "authors": [
+    "Bret Little <bret.little@gmail.com>"
+  ],
+  "description": "A simple Firebase/SmallMouth adapter for AngularJS projects. Similar to AngularFire but more lightweight.",
+  "keywords": [
+    "angular",
+    "firebase",
+    "smallmouth",
+    "largemouth"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.2",
+    "smallmouth": "~0.2.5"
+  }
+}
