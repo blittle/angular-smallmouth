@@ -22,7 +22,7 @@ var myApp = angular.module("MyApp", ["angular-smallmouth"]);
 ```
 
 ##Example
-An example angular controller with firebase and angular-smallmouth:
+An example angular controller with SmallMouth and angular-smallmouth:
 
 ```javascript
 function UserController($scope, AngularSmallMouth) {
@@ -50,3 +50,6 @@ function UserController($scope, AngularSmallMouth) {
   <button type="submit" ng-click="addUser()">Add New User</button>
 </div>
 ```
+
+##LargeMouth and SmallMouth
+[LargeMouth](https://github.com/blittle/largemouth) is an open-source replacement for Firebase written on top of NodeJS and Socket.io. [SmallMouth](https://github.com/blittle/smallmouth) is the client library for LargeMouth.
