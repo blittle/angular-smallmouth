@@ -30,7 +30,7 @@ function UserController($scope, AngularSmallMouth) {
   // var users = new Firebase("https://<my-firebase>.firebaseio.com/users");
   var users = new SmallMouth.Resource("http://<my-largemouth-instance>/users");
 
-  SmallMouthAdapter.watchResource(users, $scope, 'users');
+  AngularSmallMouth.watchResource(users, $scope, 'users');
 
   $scope.addUser = function() {
   	users.push({
@@ -42,7 +42,7 @@ function UserController($scope, AngularSmallMouth) {
 ```
 
 ```html
-<div ng-controller="ChatsController">
+<div ng-controller="UserController">
   <ul ng-repeat="user in users">
     <li>{{user.name}}</li>
   </ul>

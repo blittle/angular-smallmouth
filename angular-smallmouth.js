@@ -1,3 +1,6 @@
+/*! Angular SmallMouth v0.1.0 - MIT License Copyright Bret Little 2013 */
+angular.module('angular-smallmouth', []);
+
 angular.module('angular-smallmouth').factory('AngularSmallMouth', function($timeout) {
 	return {
 		watchResource: function(reference, scope, attr) {
